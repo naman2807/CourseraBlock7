@@ -3,6 +3,7 @@ package com.example.courserablock7;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.NumberPicker;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,5 +18,9 @@ public class MainActivity extends AppCompatActivity {
         possibilities.setDisplayedValues(possibilitiesString);
         possibilities.setMinValue(0);
         possibilities.setMaxValue(possibilitiesString.length - 1);
+    }
+
+    public void navigate(View v){
+
     }
 }
