@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
             webView.loadUrl("file:///android_asset/checklist.html");
         else if(choice == 2)
             webView.loadUrl("http://www.coursera.org");
+        else if(choice == 3)
+
 
     }
 }
