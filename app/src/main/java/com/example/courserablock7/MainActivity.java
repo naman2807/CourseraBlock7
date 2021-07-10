@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         possibilities = findViewById(R.id.picker);
         webView = findViewById(R.id.web);
-        String[] possibilitiesString = {"Android", "Checklist text-input field", "Coursera","Supelec"};
+        String[] possibilitiesString = {"Android", "Checklist text-input field", "Coursera", "Supelec"};
         possibilities.setDisplayedValues(possibilitiesString);
         possibilities.setMinValue(0);
         possibilities.setMaxValue(possibilitiesString.length - 1);
@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         else if(choice == 1)
             webView.loadUrl("file:///android_asset/checklist.html");
         else if(choice == 2)
+            webView.loadUrl("http://www.coursera.org");
 
     }
 }
