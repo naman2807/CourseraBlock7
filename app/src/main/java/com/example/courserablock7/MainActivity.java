@@ -13,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         possibilities = findViewById(R.id.picker);
+        String[] possibilitiesString = {"Android", "Checklist text-input field", "Coursera","Supelec"};
     }
 }
