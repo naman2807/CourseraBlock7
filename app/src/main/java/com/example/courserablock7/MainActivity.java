@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         else if(choice == 2)
             webView.loadUrl("http://www.coursera.org");
         else if(choice == 3)
-
+            webView.loadUrl("file:///android_asset/supelec.html");
 
     }
 }
