@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.NumberPicker;
 
 public class MainActivity extends AppCompatActivity {
@@ -24,8 +25,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void navigate(View v){
         int choice = possibilities.getValue();
-        if(choice == 0)
+        if(choice == 0) {
+            webView.setWebViewClient(new WebViewClient());
             webView.loadUrl("file:///android_asset/android.html");
+        }
         else if(choice == 1)
             webView.loadUrl("file:///android_asset/checklist.html");
         else if(choice == 2)
