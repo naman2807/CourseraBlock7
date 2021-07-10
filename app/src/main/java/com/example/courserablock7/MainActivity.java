@@ -25,5 +25,6 @@ public class MainActivity extends AppCompatActivity {
     public void navigate(View v){
         int choice = possibilities.getValue();
         if(choice == 0)
+            webView.loadUrl("file:///android_asset/android.html");
     }
 }
