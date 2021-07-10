@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         possibilities = findViewById(R.id.picker);
+        webView = findViewById(R.id.web);
         String[] possibilitiesString = {"Android", "Checklist text-input field", "Coursera","Supelec"};
         possibilities.setDisplayedValues(possibilitiesString);
         possibilities.setMinValue(0);
