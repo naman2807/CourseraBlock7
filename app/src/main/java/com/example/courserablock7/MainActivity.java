@@ -16,5 +16,6 @@ public class MainActivity extends AppCompatActivity {
         String[] possibilitiesString = {"Android", "Checklist text-input field", "Coursera","Supelec"};
         possibilities.setDisplayedValues(possibilitiesString);
         possibilities.setMinValue(0);
+        possibilities.setMaxValue(possibilitiesString.length - 1);
     }
 }
