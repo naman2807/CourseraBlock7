@@ -27,5 +27,6 @@ public class MainActivity extends AppCompatActivity {
         if(choice == 0)
             webView.loadUrl("file:///android_asset/android.html");
         if(choice == 1)
+            webView.loadUrl("file:///android_asset/checklist.html");
     }
 }
