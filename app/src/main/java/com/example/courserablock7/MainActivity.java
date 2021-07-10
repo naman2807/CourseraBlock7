@@ -15,5 +15,6 @@ public class MainActivity extends AppCompatActivity {
         possibilities = findViewById(R.id.picker);
         String[] possibilitiesString = {"Android", "Checklist text-input field", "Coursera","Supelec"};
         possibilities.setDisplayedValues(possibilitiesString);
+        possibilities.setMinValue(0);
     }
 }
